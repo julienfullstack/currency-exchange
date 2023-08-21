@@ -5,7 +5,7 @@ import ConvertCurrency from './business-logic.js';
 
 function handleFormSubmission(event) {
   event.preventDefault();
-  convertCurrency();  
+  ConvertCurrency();  
   document.getElementById("amount").value = null;
 }
 
