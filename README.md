@@ -24,8 +24,11 @@ _A website which uses ExchangeRate-API to perform currency conversions._
 * _Run npm install_
 * _Run npm build_
 * _Run npm start to open webpack dev server in browser_
-*_Obtain an API key from [Exchange API](https://www.exchangerate-api.com/)
-*_Create a .env folder and paste the API 
+* _Obtain an API key from [Exchange API](https://www.exchangerate-api.com/)
+* _Create a .env folder and paste the API_
+* _Enter "npm install" in terminal console_
+* _Enter "npm build" in terminal console_
+* _Enter "npm run start" in terminal console_
 
 ## Known Bugs
 
