@@ -1,6 +1,6 @@
 export default class CurrencyConverter {
   
-  var amount = document.getElementById("amount").value;
+  var amount = document.getElementById("amount").value;z
   var currency = document.getElementById("currency").value;
   const apiKey = process.env.API_KEY;
   const baseCurrency = "USD";
@@ -25,4 +25,3 @@ export default class CurrencyConverter {
     document.getElementById("result").innerHTML = "Error retrieving conversion rates.";
   });
 }
-
