@@ -1,7 +1,7 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import CurrencyConverter from './business-logic.js'; 
+import CurrencyConverter from './currency-converter.js'; 
 
 function handleFormSubmission(event) {
   event.preventDefault();
