@@ -10,7 +10,7 @@
 * _CSS_
 * _JavaScript_
 * _Git_
-* _Bootstrap_g
+* _Bootstrap_
 * _React_
 * _C#_
 
