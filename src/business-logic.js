@@ -5,13 +5,9 @@ export default class ConvertCurrency {
 
   const API_URL = process.env.API_KEY;
 
+  // var apiUrl = "https://v6.exchangerate-api.com/v6/${API_URL}/latest/USD";
 
-  async function getResource(resource) {
-    const response = await fetch(`${API_URL}/${resource}`);
-    return await response.json();
-  }
-
-  fetch(`${API_URL}/latest.json?app_id=${API_KEY}`)
+  fetch(`https://v6.exchangerate-api.com/v6/${API_URL}/latest/USD`)
     .then(function(response) {
       return response.json();
     })
