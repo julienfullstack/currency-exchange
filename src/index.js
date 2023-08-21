@@ -5,7 +5,8 @@ import CurrencyConverter from './currency-converter.js';
 
 function handleFormSubmission(event) {
   event.preventDefault();
-  CurrencyConverter;  
+  const currencyConverter = new CurrencyConverter();
+  currencyConverter.convertCurrency();
   document.getElementById("amount").value = null;
 }
 
