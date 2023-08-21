@@ -1,8 +1,8 @@
-# _Project Template_
+# _Currency Converter_
 
-#### By _**Brandon Wright**_
+#### By _**Julien Lenaz**_
 
-#### _A template for kicking off new projects in this nifty custom dev environment_
+#### _A website which uses ExchangeRate-API to perform currency conversions._
 
 ## Technologies Used
 
@@ -10,13 +10,13 @@
 * _CSS_
 * _JavaScript_
 * _Git_
-* _Bootstrap_
+* _Bootstrap_g
 * _React_
 * _C#_
 
 ## Description
 
-_An awesome starting point for new projects that require custom development and production environments._
+_A website which uses ExchangeRate-API to perform currency conversions._
 
 ## Setup/Installation Requirements
 
@@ -24,6 +24,11 @@ _An awesome starting point for new projects that require custom development and 
 * _Run npm install_
 * _Run npm build_
 * _Run npm start to open webpack dev server in browser_
+* _Obtain an API key from [Exchange API](https://www.exchangerate-api.com/)
+* _Create a .env folder and paste the API_
+* _Enter "npm install" in terminal console_
+* _Enter "npm build" in terminal console_
+* _Enter "npm run start" in terminal console_
 
 ## Known Bugs
 
@@ -33,4 +38,4 @@ _An awesome starting point for new projects that require custom development and 
 
 _[MIT](https://choosealicense.com/licenses/mit/)_
 
-Copyright (c) _2023_ _Brandon Wright_
+Copyright (c) _2023_ _Julien Lenaz_
